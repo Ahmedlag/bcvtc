@@ -1,7 +1,7 @@
 <pre>
 # BCVTC API
 
-this PHP file contains multiple classes that help building request and posting them to the BCVTC API.
+this PHP file contains multiple classes that help building requests and posting them to the BCVTC API.
 
 ---------------EXAMPLES-----------------
 
