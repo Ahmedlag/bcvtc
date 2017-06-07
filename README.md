@@ -1,10 +1,11 @@
+<pre>
 # BCVTC API
 
 this PHP file contains multiple classes that help building request and posting them to the BCVTC API.
 
 ---------------EXAMPLES-----------------
 
-<!-- Sending new reservation request -->
+----Sending new reservation request --
 $Key = "YOUR_API_KEY";
 
 $data = [
@@ -35,7 +36,7 @@ $CreateTicket->CreateTicket($data);
         
 
 
-<!-- Get Ticket Informations -->
+-- Get Ticket Informations --
 
 $TicketId = "eyIJX2rmhbL7";
 
@@ -45,7 +46,7 @@ echo $Ticket->GetTicket($TicketId);
 
 
 
-<!-- Geting trip fare based on the prices indicated by the driver -->
+-- Geting trip fare based on the prices indicated by the driver --
 
 $Request = new RequestPrice($Key);
 
@@ -58,12 +59,12 @@ $Request->TripType("10");
 $Request->BuildData();
 
 $Request->Send();
-
+</pre>
 
 
 Doccumentation :
 http://www.bcvtc.fr/api
 
-@Ahmed LAGGOUN
+@Ahmed LAGGOUN<br>
 BCVTC
 
