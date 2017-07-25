@@ -3,7 +3,6 @@
 // BCVTC
 // By Ahmed LAGGOUN
 // Ahmed @ reizon.net
-
 class Api
 {
     public $Response;
