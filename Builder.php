@@ -1,8 +1,11 @@
 <?php
 
 // BCVTC
-// By Ahmed LAGGOUN
+// By Ahmed LAGGOUN (www.ahmedlaggoun.com)
+// www.bcvtc.fr
+// Api doc : www.bcvtc.fr/api
 // Ahmed @ reizon.net
+
 class Api
 {
     public $Response;
